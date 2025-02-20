@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#list {
+    display: inline-flexbox;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    border: 4px solid black;
+    width: 50vb;
+    height: 100hv;
+    padding: 10px;
+    translate: -50% -50%;
+    background-color: bisque;
+}
+#list h1{
+    display: flex;
+    justify-content: center;
+}
+#list input{
+    display: flex;
+    justify-content: center;
+     width: 50%;
+     height: 20px;
+     border: 2px solid black;
+     margin-left: 30px;
+     font-size: 15px;
+}
+#note{
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    left: 35%;
+    font-size: x-large;
+    background-color: yellow;
+    text-transform: capitalize;
+}
+#down{
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    top: 550px;
+    left: 18%;
+    font-size: x-large;
+    background-color: yellow;
+    text-transform: capitalize;
+    z-index: 2;
+}
+#list button {
+    width: 20%;
+    height: 25px;
+    position: relative;
+    left: 270px;
+    bottom: 22px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+
+}
+#del{
+    display: none;
+}
+#todolist{
+    display: block;
+    z-index: 1;
+}
+#foot{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -600px;
+
+}
